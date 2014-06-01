@@ -1,0 +1,26 @@
+{
+    "name": "terrasoff/yii/map-relation",
+    "description": "MANY-MANY relations management for Yii framework",
+    "keywords": ["yii", "relations", "many many", "many-many"],
+    "license": "BSD-3-Clause",
+
+    "authors": [
+        {
+            "name": "terrasoff",
+            "email": "terrasoffe@terrasoff.com"
+        }
+    ],
+
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii": "dev-master",
+        "yiiext/activerecord-relation-behavior": "dev-master"
+    },
+
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/yiiext/activerecord-relation-behavior.git"
+        }
+    ]
+}
